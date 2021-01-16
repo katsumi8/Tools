@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<ribbon startFromScratch="false">
+<tabs>
+<tab id="MyTab1" label="Productivity tools">
+
+<group id="Group1" label="Sizes">
+<button id="Button1-1" label="Set Same Size" imageMso="MacroPlay" size="normal" onAction="SetSameSize" />
+<button id="Button1-2" label="Set Same Height" imageMso="MacroPlay" size="normal" onAction="SetSameHeight" />
+<button id="Button1-3" label="Set Same Width" imageMso="MacroPlay" size="normal" onAction="SetSameWidth" />
+</group>
+
+<group id="Group2" label="Positioning">
+<button id="Button2-1" label="Stack Horizontal" imageMso="MacroPlay" size="normal" onAction="Stack_shape_h" />
+<button id="Button2-2" label="Stack Vertical" imageMso="MacroPlay" size="normal" onAction="Stack_shape_v" />
+<button id="Button2-3" label="Swap" imageMso="MacroPlay" size="normal" onAction="swap_obj" />
+</group>
+
+<group id="Group3" label="Styles">
+<button id="Button3-1" label="Set Same colors for obj" imageMso="MacroPlay" size="normal" onAction="SetSame_colors" />
+<button id="Button3-2" label="Set Same fontstyle" imageMso="MacroPlay" size="normal" onAction="SetSame_fontstyle" />
+<button id="Button3-3" label="Set Same head of the arrow" imageMso="MacroPlay" size="normal" onAction="SetSameArrowhead" />
+<button id="Button3-4" label="Split table" imageMso="MacroPlay" size="normal" onAction="Split_tables" />
+<button id="Button3-5" label="Create Line_btwn_objs" imageMso="MacroPlay" size="normal" onAction="create_line" />
+<button id="Button3-6" label="Adjust Line" imageMso="MacroPlay" size="normal" onAction="Adjust_line" />
+</group>
+
+
+</tab>
+</tabs>
+</ribbon>
+</customUI>
