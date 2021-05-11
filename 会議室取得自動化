@@ -1,8 +1,8 @@
 
 Power Automateのスケジュールから、実施する。
 下記の式を開始時間と終了時間に入れる。
-会社のOutlookの設定により、最大90日まで取れる場合と60日までしか取れないケースが存在する。
-何日後に取りたいかの日数＝60か90である
+会社のOutlookの設定により、最大90日先まで取れる。
+何日後に取りたいかの日数＝90などである。
+以下の式をとりたい時間の初めと終わりに設定する。
 
 addHours(convertFromUtc(addHours(startOfDay(addDays(addHours(utcNow(),9),何日後に取りたいかの日数)),-9),'Tokyo Standard Time'),取りたい時間)
-
